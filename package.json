@@ -1,6 +1,12 @@
 {
   "version": "1.0.0",
   "main": "src/index.ts",
+  "prettier": {
+    "singleQuote": false,
+    "bracketSpacing": false,
+    "semi": true,
+    "proseWrap": "preserve"
+  },
   "scripts": {
     "debug": "nodemon src/index.ts",
     "test": "jest",
@@ -12,8 +18,11 @@
     "lint:fix": "eslint src*/**/*.ts --fix",
     "start:prod": "nodemon src/index.ts"
   },
-  "author": "Viktor Svensson",
-  "license": "MIT",
+  "author": {
+    "name": "Viktor Svensson",
+    "url": "https://github.com/viktorsvensson"
+  },
+  "license": "OpenBSD",
   "dependencies": {
     "nodemon": "^1.18.10",
     "ts-node": "^8.0.3"
@@ -26,11 +35,11 @@
     "@types/eslint": "^7.2.4",
     "@types/jest": "^24.0.12",
     "@types/node": "^11.10.5",
-    "@typescript-eslint/eslint-plugin": "^4.6.1",
-    "@typescript-eslint/parser": "^4.6.1",
-    "eslint": "^7.13.0",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "eslint": "^7.15.0",
     "eslint-config-prettier": "^6.15.0",
-    "eslint-config-standard": "^16.0.1",
+    "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",

@@ -15,4 +15,14 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-export {add} from "./add";
+/**
+ * Calculates the sum of `a` + `b`.
+ *
+ * @export
+ * @param a
+ * @param b
+ * @returns
+ */
+export function add(a: number, b: number): number {
+  return a + b;
+}

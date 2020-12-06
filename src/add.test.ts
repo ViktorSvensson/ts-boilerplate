@@ -15,4 +15,10 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-export {add} from "./add";
+import {add} from "./add";
+
+describe("add", () => {
+  test("should add 2 numbers", () => {
+    expect(add(1, 2)).toEqual(3);
+  });
+});

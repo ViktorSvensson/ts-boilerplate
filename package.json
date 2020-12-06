@@ -19,7 +19,7 @@
     "start:prod": "nodemon src/index.ts"
   },
   "author": {
-    "name": "Viktor Svensson",
+    "name": "Carl Viktor Svensson",
     "url": "https://github.com/viktorsvensson"
   },
   "license": "OpenBSD",

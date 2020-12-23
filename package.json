@@ -21,7 +21,7 @@
     "lint:fix": "eslint src*/**/*.ts --fix"
   },
   "author": {
-    "name": "Viktor Svensson",
+    "name": "Carl Viktor Svensson",
     "url": "https://github.com/viktorsvensson"
   },
   "license": "Apache-2.0",

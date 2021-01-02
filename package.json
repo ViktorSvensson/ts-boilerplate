@@ -1,7 +1,4 @@
 {
-  "name": "typescript-app",
-  "description": "",
-  "version": "0.0.0",
   "main": "src/index.ts",
   "prettier": {
     "singleQuote": false,
@@ -15,10 +12,12 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --collectCoverageFrom=src/**/*.ts --coverage",
+    "test:setup": "yarn add --dev jest @types/jest ts-jest",
     "build": "tsc",
     "build:watch": "tsc -w",
     "lint": "eslint src/**/*.ts",
-    "lint:fix": "eslint src*/**/*.ts --fix"
+    "lint:fix": "eslint src*/**/*.ts --fix",
+    "lint:setup": "yarn add --dev eslint && eslint --init"
   },
   "author": {
     "name": "Carl Viktor Svensson",
@@ -26,29 +25,13 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "nodemon": "^1.18.10",
-    "ts-node": "^8.0.3"
+    "ts-node": "^9.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.3.4",
-    "@babel/polyfill": "^7.2.5",
-    "@babel/preset-env": "^7.3.4",
-    "@types/eslint": "^7.2.4",
-    "@types/jest": "^26.0.19",
-    "@types/node": "^11.10.5",
-    "@typescript-eslint/eslint-plugin": "^4.9.0",
-    "@typescript-eslint/parser": "^4.9.0",
-    "eslint": "^7.15.0",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-promise": "^4.2.1",
-    "jest": "^26.6.2",
-    "prettier": "^2.1.2",
-    "ts-jest": "^26.4.4",
-    "typescript": "^4.0.5"
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.12.1",
+    "@types/node": "^12.12.2",
+    "typescript": "^4.1.3"
   }
 }

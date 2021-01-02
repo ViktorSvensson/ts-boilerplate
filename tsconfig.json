@@ -2,6 +2,7 @@
   "compilerOptions": {
     "module": "CommonJS",
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "target": "ES6",
     "noImplicitAny": true,
     "experimentalDecorators": true,

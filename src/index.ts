@@ -9,3 +9,6 @@
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.
  */
+
+export type Name = "Viktor" | "Confused Developer";
+export type Greeting = `Hello, ${Name}!`;
